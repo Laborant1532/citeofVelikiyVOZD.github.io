@@ -1,0 +1,108 @@
+.navbar .navbar-nav .nav-link.active {
+    color: red;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: rgb(207, 134, 134);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.B {
+    background: linear-gradient(0deg, #2c6c28 0%, #e6e6e6 100%);
+}
+
+.nav-right {
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+}
+
+.A {
+    background: linear-gradient(0deg, #2c6c28 0%, #e6e6e6 100%);
+}
+
+.slide-text {
+    color: rgb(0, 0, 0);
+    margin: auto auto;
+}
+.footer-text a{
+    text-decoration: none;
+    color: #000000;
+}
+.bttn{
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+.phone-animated{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.adres-card{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	border-style: dotted;
+	border-radius: 100px;
+	border-color: black;
+	color: rgb(0, 0, 0);
+}
+.col-lg-4>img{
+	width: 350px;
+}
+.col-lg-4>h3{
+	margin-left: 30px;
+}
+.col-lg-4>p{
+	margin-left: 30px;
+}
+.col-lg-4>h4{
+	margin-left: 30px;
+}
+.carousel-control-next{
+	
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+@media(max-width:750px){
+    .carousel-indicators{
+        display: none;
+    }
+}

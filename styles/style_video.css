@@ -1,0 +1,19 @@
+.bg-video {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.bg-video video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+}
+.video-text{
+    z-index: 2;
+    color: aliceblue;
+    display: flex;
+}
